@@ -1,0 +1,8 @@
+Compilation Error: Command failed: g++ new.cpp -o a.out
+new.cpp: In function ‘int main()’:
+new.cpp:5:25: error: expected ‘;’ before ‘return’
+    5 |   cout << "Hello World!"
+      |                         ^
+      |                         ;
+    6 |   return 0;
+      |   ~~~~~~                 
